@@ -1,0 +1,137 @@
+/* #region social media list */
+
+.social-media-container {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.social-medi-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social-media-list {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.social-item {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.social-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    transition: background-color 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    fill: black;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: darkslategrey;
+    fill: antiquewhite;
+}
+
+/* #endregion */
+/* #region my cat image */
+
+.image-section {
+    display: flex;
+}
+
+.my-cat-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.cat-in-grass {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.cat-in-grass-thumb {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.my-cat-descr {
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.my-cat-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+
+/* #endregion */
+/* #region grid of elements */
+
+.grid-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 80px) / 3);
+
+}
+
+.grid-image:hover,
+.grid-image:focus {
+    transform: scale(1.5);
+    border-radius: 20px;
+
+}
+
+.grid-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 500ms linear;
+}
+
+/* #endregion */
+/* #region sidebar */
+
+.sidebar-section {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    min-width: 250px;
+    background-color: bisque;
+}

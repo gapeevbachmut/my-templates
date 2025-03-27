@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/public/favicon.svg#icon-profile" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My templates</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+        integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+    <div class="common-body">
+        <header class="container">
+            <nav>
+                <a class="logo-link" href="/index.html">
+                    <svg class="logo" width="30" height="30">
+                        <use href="/img/icon.svg#icon-profile"></use>
+                    </svg>
+                </a>
+                <ul>
+                    <li><a class="nav-link" href="/page-2.html">page-2</a></li>
+                    <li><a href="/page-3.html">page-3</a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <div class="sidebar-section">
+            <aside class="sidebar">
+                <h3 class="sidebar-title">About my cat</h3>
+            </aside>
+            <main>
+                <h1 class="title-one">My template</h1>
+                <!-- #region social media list -->
+                <div class="container social-media-container">
+                    <h2 class="title social-medi-title"><span class="span-text">список соціальних мереж</span> - social
+                        media list</h2>
+                    <p class="social-media-list">fasebook, youtube, instagram</p>
+                    <ul class="social-list">
+                        <li class="social-item">
+                            <a class="social-link" href="" aria-label="facebook" target="blank">
+                                <svg class="social-icon" width="24" height="24">
+                                    <use href="/img/icon.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="https://www.youtube.com/" aria-label="youtube" target="blank">
+                                <svg class="social-icon" width="24" height="24">
+                                    <use href="/img/icon.svg#icon-youtube"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="" aria-label="instagram" target="blank">
+                                <svg class="social-icon" width="24" height="24">
+                                    <use href="/img/icon.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- #endregion -->
+                <!-- #region my cat image -->
+                <section class="image-section">
+                    <div class="container">
+                        <div class="my-cat-container">
+                            <h2 class="title my-cat-title">Бублік</h2>
+                            <p class="my-cat-text">Мій котик</p>
+                            <img class="my-cat-img" width="300" src="/img/my-cat/my_cat.jpg" alt="my-cat">
+                        </div>
+                        <p class="my-cat-descr"><span class="span-text">Центрування елемента.</span> Для зображення
+                            задаємо
+                            абсолют, а для контейнера
+                            релатів,
+                            "Абсолютно позиціонуємо зображення відносно батьківського елемента - контейнера"</p>
+                    </div>
+                    <div class="container cat-in-grass">
+                        <h2 class="my-cat-title">Мій котик у траві</h2>
+                        <p class="my-cat-text"><span class="span-text">Заокруглення зображення</span></p>
+                        <div class="cat-in-grass-thumb">
+                            <img class="my_cat-in-grass" width="300" src="/img/my-cat/my_cat-in-grass.jpg"
+                                alt="my_cat-in-grass">
+                        </div>
+                        <p class="my-cat-descr">Картинка візуально виходить за межі блоку. Ця особливість проявляється
+                            при
+                            заокругленні рамок
+                            зображення. Тумбі можна задати ширину та висоту, а зображенню ці показники = 100%, та
+                            object-fit: cover;.</p>
+                    </div>
+
+                </section>
+
+                <!-- #endregion -->
+                <!-- #region grid of elements -->
+                <div class="container grid">
+                    <h3 class="grid-title"><span class="span-text">Сітка елементів</span> Сітка карток з описом</h3>
+                    <ul class="grid-list">
+                        <li class="grid-item">
+                            <img class="grid-image" width="200" src="/img/grid/cat1.jpg" alt="cat">
+                            <div class="grid-descr">
+                                <h3 class="grid-title">My cat - бублік</h3>
+                                <p class="grid-text">Мій котик</p>
+                            </div>
+                        </li>
+                        <li class="grid-item">
+                            <img class="grid-image" width="200" src="/img/grid/cat2.jpg" alt="cat">
+                            <div class="grid-descr">
+                                <h3 class="grid-title">My cat - бублік</h3>
+                                <p class="grid-text">Мій котик</p>
+                            </div>
+                        </li>
+                        <li class="grid-item">
+                            <img class="grid-image" width="200" src="/img/grid/cat3.jpg" alt="cat">
+                            <div class="grid-descr">
+                                <h3 class="grid-title">My cat - бублік</h3>
+                                <p class="grid-text">Мій котик</p>
+                            </div>
+                        </li>
+                        <li class="grid-item">
+                            <img class="grid-image" width="200" src="/img/grid/cat4.jpg" alt="cat">
+                            <div class="grid-descr">
+                                <h3 class="grid-title">My cat - бублік</h3>
+                                <p class="grid-text">Мій котик</p>
+                            </div>
+                        </li>
+                        <li class="grid-item">
+                            <img class="grid-image" width="200" src="/img/grid/cat5.jpg" alt="cat">
+                            <div class="grid-descr">
+                                <h3 class="grid-title">My cat - бублік</h3>
+                                <p class="grid-text">Мій котик</p>
+                            </div>
+                        </li>
+                        <li class="grid-item">
+                            <img class="grid-image" width="200" src="/img/grid/cat6.jpg" alt="cat">
+                            <div class="grid-descr">
+                                <h3 class="grid-title">My cat - бублік</h3>
+                                <p class="grid-text">Мій котик</p>
+                            </div>
+                        </li>
+                        <li class="grid-item">
+                            <img class="grid-image" width="200" src="/img/grid/cat7.jpg" alt="cat">
+                            <div class="grid-descr">
+                                <h3 class="grid-title">My cat - бублік</h3>
+                                <p class="grid-text">Мій котик</p>
+                            </div>
+                        </li>
+                        <li class="grid-item">
+                            <img class="grid-image" width="200" src="/img/grid/cat8.jpg" alt="cat">
+                            <div class="grid-descr">
+                                <h3 class="grid-title">My cat - бублік</h3>
+                                <p class="grid-text">Мій котик</p>
+                            </div>
+                        </li>
+                        <li class="grid-item">
+                            <img class="grid-image" width="200" src="/img/grid/cat9.jpg" alt="cat">
+                            <div class="grid-descr">
+                                <h3 class="grid-title">My cat - бублік</h3>
+                                <p class="grid-text">Мій котик</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- #endregion -->
+
+            </main>
+
+        </div>
+        <!-- #region footer -->
+        <footer class="footer-section">
+            <div class="container footer-container">
+                <h3 class="footer-text">designed and created by me</h3>
+
+            </div>
+        </footer>
+        <!-- #endregion -->
+    </div>
+</body>
+
+</html>
